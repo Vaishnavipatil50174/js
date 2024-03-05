@@ -1,0 +1,85 @@
+body{
+    background: #8CC461;
+
+}
+.head1{
+    height: 100px;
+    border: 2px solid white;
+    margin: auto;
+    width: 500px;
+    padding: 10px;
+    top: 70px;
+    left: 200px;
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.write{
+    width: 250px;
+    font-size:25px;
+    color: #FFFFFF;
+
+}
+.score{
+    width: 100px;
+    background: #FFFFFF;
+    border: 1px solid black;
+    height: 100px;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    font-weight: 300px;
+
+
+}
+#rock{
+    position: absolute;
+    left: 260px;
+}
+
+#paper{
+    position: absolute;
+    left:490px;
+}
+
+#scissors{
+    position: absolute;
+    left: 380px;
+    top:370px;
+}
+
+.choice{
+    background-color: white;
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f{
+    position: absolute;
+    top:260px;
+    left: 425px;
+    width: 65px;
+  }
+  
+  .s{
+    position: absolute;
+    top:345px;
+    left:520px;
+    width: 35px;
+  }
+  .t{
+    position: absolute;
+    top: 345px;
+    left: 370px;
+    width: 35px;
+  }
+
+  .msg{
+    position: absolute;
+    top:530px;
+    left: 420px;
+  }
